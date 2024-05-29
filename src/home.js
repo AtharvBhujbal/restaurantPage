@@ -1,4 +1,4 @@
-import chef from './chef.jpg'
+import chef from './chef.jpg';
 function createHome(){
     const container = document.createElement('div');
     container.classList.add('homeContainer')
