@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background:rgb(0,0,0,0.4) url('./bg.jpg');
+    background: url('./bg.jpg');
     background-blend-mode: darken;
     background-attachment: fixed;
     background-size: cover;
@@ -68,8 +68,9 @@ button:after {
     align-items: center;
 }
 
+/* Home */
 .homeContainer{
-    background-color:rgb(234, 255, 255,0.3);
+    background-color:rgba(34, 34, 34, 0.466);
     width: 40%;
     padding: 2%;
     margin: 1.5rem;
@@ -82,4 +83,20 @@ button:after {
 .chefImg{
     width: 50%;
     border-radius: 50%;    
+}
+/* Menu */
+.menuContainer{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+}
+.card{
+    width: 30%;
+    background-color:rgba(34, 34, 34, 0.466);
+}
+.cardImg{
+    width: 70%;
+    margin-top: 5%;
 }

@@ -13,12 +13,14 @@ function btnCall(){
     const content = document.getElementById('content');
     switch(this.textContent){
         case 'Menu':
-            content.textContent = createMenu();
+            content.textContent='';
+            content.appendChild(createMenu());
             break;
         case 'About':
             content.textContent = createAbout();
             break;
         default:
+            content.textContent='';
             content.appendChild(createHome());
     }
 }
