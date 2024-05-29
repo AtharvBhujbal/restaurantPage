@@ -60,3 +60,26 @@ button:after {
     transition-duration: 400ms;
     transition-property: width, left;
 }
+
+#content{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContainer{
+    background-color:rgb(234, 255, 255,0.3);
+    width: 40%;
+    padding: 2%;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.chefImg{
+    width: 50%;
+    border-radius: 50%;    
+}

@@ -19,7 +19,7 @@ function btnCall(){
             content.textContent = createAbout();
             break;
         default:
-            content.textContent = createHome();
+            content.appendChild(createHome());
     }
 }
 
