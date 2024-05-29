@@ -51,7 +51,6 @@ function createFooter(){
     githubLogo.alt = "Github Logo";
     gitlink.appendChild(githubLogo)
     footer.appendChild(gitlink);
-    // const body = document.getElementsByTagName('body');
     document.body.appendChild(footer);
 }
 createHeader();
